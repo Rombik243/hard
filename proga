@@ -1,4 +1,3 @@
-```
 f = open('32.txt')
 def ShiftLeft(n: list[int],T: int): #функция циклического сдвига вправо
     x = n.copy()
@@ -60,4 +59,3 @@ for prd in range(1,n): # цикл проходится по диагоналям
         J += 1
 a = [sum(matrix[i]) for i in range(len(matrix))] # сумма каждой строки матрицы
 print(max(a))
-```
